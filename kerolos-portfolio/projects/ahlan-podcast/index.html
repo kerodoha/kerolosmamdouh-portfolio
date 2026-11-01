@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="icon" type="image/svg+xml" href="../../favicon.svg">
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ahlan Podcast — Kerolos Mamdouh</title>
 <meta name="description" content="Ahlan Podcast case study — reels editing and episode closing by Kerolos Mamdouh.">
@@ -43,6 +44,26 @@
 .contact-links .primary{border-color:var(--accent);color:var(--accent)}
 .contact-links .primary:hover{background:#ff985d;color:#120b07}
 @media(max-width:760px){.contact{padding:28px 20px}.contact .contact-title{font-size:clamp(62px,16vw,92px)}.contact-links{gap:9px}.contact-links a{flex:1 1 145px;min-width:0}}
+
+/* Shared homepage CONTACT section — synchronized across all project pages */
+#contact.section{padding:72px 0;border-top:1px solid var(--line);margin-top:0}
+#contact .contact{position:relative;isolation:isolate;overflow:hidden;box-sizing:border-box;width:100%;padding:clamp(28px,5vw,58px);background:radial-gradient(ellipse at 88% 8%,rgba(255,118,40,.20),transparent 38%),linear-gradient(135deg,#17100c 0%,#111 48%,#0b0b0b 100%);border:1px solid #66351f;box-shadow:0 18px 65px rgba(0,0,0,.28);}
+#contact .contact:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff7628,#ffb17e,transparent)}
+#contact .contact .eyebrow{color:var(--accent);font-size:10px;letter-spacing:3px;text-transform:uppercase}
+#contact .contact .contact-title{font-family:"Bebas Neue",Impact,sans-serif;font-size:clamp(68px,10vw,118px);font-weight:400;letter-spacing:.015em;line-height:.88;margin:18px 0 20px;text-transform:uppercase;color:#f4f4f2}
+#contact .contact .contact-title span{color:var(--accent);display:inline-block;margin-left:.035em}
+#contact .contact .contact-kicker{font-family:"Bebas Neue",Impact,sans-serif;color:#f4f4f2;font-size:clamp(22px,3vw,30px);letter-spacing:.04em;margin:0 0 10px}
+#contact .contact .contact-kicker span{color:var(--accent)}
+#contact .contact p{color:#c0b5ae;line-height:1.8;max-width:560px;margin:0}
+#contact .contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+#contact .contact-links a{display:inline-flex;align-items:center;gap:9px;min-width:145px;justify-content:center;padding:15px 18px;border:1px solid #4a3022;background:rgba(20,15,12,.9);color:#eee;text-decoration:none;font-size:10px;font-weight:700;letter-spacing:1.2px;border-radius:3px;transition:.2s;box-sizing:border-box}
+#contact .contact-links a:hover{border-color:var(--accent);background:#21140d;color:#ff9a5f;transform:translateY(-3px);box-shadow:0 8px 24px rgba(255,118,40,.12)}
+#contact .contact-links a.primary{background:var(--accent);border-color:var(--accent);color:#120b07}
+#contact .contact-links a.primary:hover{background:#ff985d;color:#120b07}
+#contact .contact-links svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+@media(max-width:760px){#contact.section{padding:52px 0}#contact .contact{padding:28px 20px}#contact .contact .contact-title{font-size:clamp(62px,16vw,92px);line-height:.9}#contact .contact-links{gap:9px}#contact .contact-links a{flex:1 1 145px;min-width:0;justify-content:center;padding:14px 10px;font-size:10px}}
+@media(max-width:420px){#contact .contact-links a{flex-basis:100%}}
+
 </style>
 </head>
 <body>
