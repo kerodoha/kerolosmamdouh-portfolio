@@ -55,10 +55,35 @@
 @media(max-width:760px){#contact.section{padding:52px 0}#contact .contact{padding:28px 20px}#contact .contact .contact-title{font-size:clamp(62px,16vw,92px);line-height:.9}#contact .contact-links{gap:9px}#contact .contact-links a{flex:1 1 145px;min-width:0;justify-content:center;padding:14px 10px;font-size:10px}}
 @media(max-width:420px){#contact .contact-links a{flex-basis:100%}}
 
+
+
+/* CONTACT — exact visual match with homepage */
+#contact.section{padding:72px 0;border-top:1px solid var(--line)}
+#contact .contact{position:relative;isolation:isolate;overflow:hidden;padding:clamp(28px,5vw,58px);background:radial-gradient(ellipse at 88% 8%,rgba(255,118,40,.20),transparent 38%),linear-gradient(135deg,#17100c 0%,#111 48%,#0b0b0b 100%);border:1px solid #66351f;box-shadow:0 18px 65px rgba(0,0,0,.28)}
+#contact .contact:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff7628,#ffb17e,transparent)}
+#contact .contact .contact-title{font-family:"Bebas Neue",Impact,sans-serif;font-size:clamp(68px,10vw,118px);font-weight:400;letter-spacing:.015em;line-height:.78;margin:18px 0 20px;text-transform:uppercase}
+#contact .contact .contact-title span{color:var(--accent);display:inline-block;margin-left:.035em}
+#contact .contact .contact-kicker{font-family:"Bebas Neue",Impact,sans-serif;color:#f4f4f2;font-size:clamp(22px,3vw,30px);letter-spacing:.04em;margin:0 0 10px}
+#contact .contact .contact-kicker span{color:var(--accent)}
+#contact .contact p{color:#c0b5ae;line-height:1.8;max-width:560px}
+#contact .contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+#contact .contact-links a{display:inline-flex;align-items:center;gap:9px;min-width:145px;justify-content:center;padding:15px 18px;border:1px solid #4a3022;background:rgba(20,15,12,.9);color:#eee;font-size:10px;font-weight:700;letter-spacing:1.2px;border-radius:3px;transition:.2s;box-sizing:border-box}
+#contact .contact-links a:hover{border-color:var(--accent);background:#21140d;color:#ff9a5f;transform:translateY(-3px);box-shadow:0 8px 24px rgba(255,118,40,.12)}
+#contact .contact-links a.primary{background:var(--accent);border-color:var(--accent);color:#120b07}
+#contact .contact-links a.primary:hover{background:#ff985d;color:#120b07}
+#contact .contact-links svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+@media(max-width:760px){
+ #contact.section{padding:52px 0}
+ #contact .contact{padding:28px 20px}
+ #contact .contact-links{gap:9px}
+ #contact .contact-links a{flex:1 1 145px;justify-content:center;padding:14px 10px;font-size:10px}
+}
+@media(max-width:420px){#contact .contact-links a{flex-basis:100%}}
+
 </style></head><body>
 <header class="wrap nav"><a class="brand" href="../../index.html">KM<b>.</b></a><a href="../../index.html#work">BACK TO WORK ↗</a></header>
 <main class="wrap"><a class="back" href="../../index.html#work">← ALL PROJECTS</a>
-<section class="intro-grid"><div><p class="number">PROJECT 02 / SELECTED COLLABORATION</p><div class="eyebrow">SOCIAL CONTENT · SHORT-FORM VIDEO</div><h1 class="title">SALMA<br><span>MASHHOUR.</span></h1><p class="lead">A selection of short-form Instagram content created in collaboration with Salma Mashhour — bringing two featured reels together in one focused project showcase.</p></div><div class="cover" role="img" aria-label="Project artwork"></div></section>
+<section class="intro-grid"><div><p class="number">PROJECT 02 / SELECTED COLLABORATION</p><div class="eyebrow">FOOTBALL · SHORT-FORM CONTENT</div><h1 class="title">SALMA<br><span>MASHHOUR.</span></h1><p class="lead">Football-focused content featuring Salma Mashhour, covering the game, its stories and conversations from the world of football.</p></div><div class="cover" role="img" aria-label="Project artwork"></div></section>
 
 
 <section class="section" id="reels"><div class="section-head"><div><div class="eyebrow">SELECTED CUTS / 01—02</div><h2>Watch the reels<span style="color:var(--orange)">.</span></h2></div><p>Choose a reel to open the original Instagram post in a new tab.</p></div><div class="reel-grid">
